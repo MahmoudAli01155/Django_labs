@@ -1,0 +1,16 @@
+{%extends 'Parent.html'%}
+{%block title%}
+New Catagory
+{%endblock%}
+{%block content%}
+<div  style="color:green">
+  <h1>{{msg}}</h1>
+
+</div>
+<form method="post">
+  {%csrf_token%}
+  <label>Catagory Name</label>
+  <input type="text" name="catgoryname"/>
+  <input type="submit" value="Add">
+</form>
+{%endblock%}
