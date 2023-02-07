@@ -40,6 +40,7 @@ INSTALLED_APPS = [
     #'catagory',
     'catagory.apps.CatagoryConfig',
     'hotels.apps.HotelsConfig',
+    'account.apps.AccountConfig',
 ]
 
 MIDDLEWARE = [
