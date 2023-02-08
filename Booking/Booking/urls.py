@@ -24,5 +24,6 @@ urlpatterns = [
     path('Catg/Add',views.Add,name='Catagory_Add'),
     path('Catg/Update/<int:catgid>',views.Update,name='Catagory_Update'),
     path('hotels/',include('hotels.urls')),
-    path('account/',include('account.urls'))
+    path('account/',include('account.urls')),
+    path('publisher/',include('publisher.urls'))
 ]

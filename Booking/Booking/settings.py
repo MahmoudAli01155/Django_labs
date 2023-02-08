@@ -41,6 +41,8 @@ INSTALLED_APPS = [
     'catagory.apps.CatagoryConfig',
     'hotels.apps.HotelsConfig',
     'account.apps.AccountConfig',
+    'rest_framework',
+    'publisher',
 ]
 
 MIDDLEWARE = [
